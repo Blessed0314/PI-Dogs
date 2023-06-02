@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Boba';
+    src: url('./utils/Boba\ Cups.ttf') format('truetype');
+  }
+
+body {
+  background-image: url('./utils/fondo.jpeg');
+  background-size: cover;
+}
+  
+  /* Fuente */
+body {
+    font-family: "Boba", sans-serif;
+}
+  
+  /* Color de la fuente */
+body {
+    color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

@@ -1,0 +1,128 @@
+@font-face {
+  font-family: 'Boba';
+  src: url('../../utils/Boba\ Cups.ttf') format('truetype');
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+  justify-content: center; /* Agregado para centrar las tarjetas */
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 1rem;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paginationContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 1000px;
+  margin-top: 1rem;
+}
+
+.pagination {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.previous,
+.next {
+  cursor: pointer;
+}
+
+.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.break {
+  margin: 0 0.5rem;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 3px solid white;
+  background-color: rgba(14, 14, 14, 0.7);
+  border-radius: 10px 0px 10px 0px;
+}
+
+.searchContainer input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  border: 0px;
+  border-radius: 10px 0px 0px 0px;
+}
+
+.buttonStyle{
+  padding: 8px 12px;
+  background-color: #4702e8;
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Boba', sans-serif;
+  color: white;
+  border: none;
+  border-radius: 0px 0px 10px 0px;
+  cursor: pointer;
+}
+
+.buttonStyle:hover{
+  background-color: royalblue;
+}
+
+.searchContainer h4 {
+  margin-left: 8px;
+  margin-right:4px;
+  color: white;
+  text-shadow: 1px 1px 1px rgb(22, 5, 216);
+}
+
+.loadingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 600px;
+}
+
+.detailLoading {
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  font-size: 75;
+  border-radius: 30%;
+  background-color: rgba(245, 241, 241, 0.5);
+}

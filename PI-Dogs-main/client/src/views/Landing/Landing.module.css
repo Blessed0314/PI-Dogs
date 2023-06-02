@@ -1,0 +1,76 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%; /* Establece el ancho del contenedor principal al 70% */
+    margin: 0 auto; /* Centra el contenedor horizontalmente */
+    height: 100vh;
+}
+  
+.imageContainer {
+    background-image: url("../../utils/noah.jpg");
+    background-size: cover; 
+    background-position: center center;
+    width: 100%; 
+    height: 80%; 
+    margin-right: 50px;
+    border-color: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: auto;
+  }
+
+  .imageContainer img {
+    max-width: 130%;
+    max-height: 140%;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto;
+  }
+  
+.contentContainer {
+    background-image: url("../../utils/marco2.png");
+    background-size: cover; 
+    background-position: center center; 
+    width: 140%; 
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(132, 120, 120, 0.5);
+    border-radius: 20px;
+}
+
+.contentContainer h1 {
+    text-shadow: 2px 2px 2px white;
+}
+  
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.buttonStyle {
+    background-image: url("../../utils/boton1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    transition: background-image 0.15s ease-in-out;
+}
+
+.buttonStyle:hover {
+    background-image: url("../../utils/boton2.png");
+}
+
+.paragraph {
+    text-align: justify;
+    color: black;
+    font-size: 19px;
+    text-shadow: 2px 2px 2px rgb(148, 146, 146);
+    padding-left: 30px;
+    padding-right: 30px;
+}

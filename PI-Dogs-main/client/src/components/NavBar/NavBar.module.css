@@ -1,0 +1,88 @@
+.mainContainer{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 15px;
+    border: 1px solid rgb(249, 248, 248);
+    background-color: rgba(6, 6, 186, 0.3);
+}
+.mainContainer h2 {
+    text-align: center;
+    color: wheat;
+    text-shadow: 2px 2px 2px rgb(216, 5, 5);
+}
+
+.homeContainer {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    transition: width 0.5s; /* Agrega una transición suave para el cambio de ancho */
+  }
+  
+.homeContainer:hover {
+    width: 250px; 
+}
+  
+.homeContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    transition: transform 0.5s; 
+}
+  
+.homeContainer:hover img {
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+  
+.homeContainer h3 {
+    text-shadow: 2px 2px 2px rgb(216, 5, 5);
+    opacity: 0; 
+    transition: opacity 0.5s; 
+}
+  
+.homeContainer:hover h3 {
+    opacity: 1; 
+}
+  
+.createContainer {
+    width: 200px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    transition: width 0.5s; /* Agrega una transición suave para el cambio de ancho */
+}
+  
+.createContainer:hover {
+    width: 250px; 
+}
+  
+.createContainer img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 50%;
+    transition: transform 0.5s; 
+}
+  
+.createContainer:hover img {
+    transform: scale(1.2); /* Aumenta el tamaño de la imagen al hacer hover */
+}
+  
+.createContainer h3 {
+    text-shadow: 2px 2px 2px rgb(216, 5, 5);
+    opacity: 0; 
+    transition: opacity 0.5s; 
+}
+  
+.createContainer:hover h3 {
+    opacity: 1; 
+}
+  

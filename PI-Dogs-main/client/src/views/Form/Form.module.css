@@ -1,0 +1,117 @@
+.container {
+  font-family: 'Boba', sans-serif;
+  display: flex;
+  align-items: center; /* Alinea los elementos verticalmente */
+}
+
+@font-face {
+  font-family: 'Boba';
+  src: url('../../utils/Boba\ Cups.ttf') format('truetype');
+}
+
+.fontStyle {
+  text-align: left;
+  color: rgb(229, 232, 232);
+  text-shadow: 3px 3px 3px rgb(22, 5, 216);
+}
+
+.labelStyle{
+  margin-top: 20px;
+}
+
+.errorMessage {
+  font-size: small;
+  color: red;
+  font-style: italic;
+}
+
+.form {
+  margin: 20px auto; /* Establece un margen de 20px en todos los lados y auto para centrar horizontalmente */
+  max-width: 450px; /* Establece un ancho máximo para limitar el ancho del formulario */
+  padding: 20px; /* Añade un espacio interno de 20px dentro del formulario */
+  background-color: rgba(14, 14, 14, 0.7); /* Opcional: Agrega un color de fondo al formulario */
+  background-image: url("https://i.gifer.com/WG8P.gif");
+  border-radius: 5%;
+  border: 1px solid rgb(248, 247, 247);
+}
+
+.form label {
+  color: rgb(206, 205, 205);
+  text-shadow: 1px 1px 1px rgb(22, 5, 216);
+}
+
+.form h4 {
+  color: rgb(206, 205, 205);
+  text-shadow: 1px 1px 1px red;
+}
+
+.buttonContainer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonStyle{
+  font-family: 'Boba', sans-serif;
+  color: white;
+  border-radius: 5px;
+  background-color: blue;
+}
+.buttonStyle:hover {
+  background-color: royalblue ;
+}
+
+.selectedOptionsContainer {
+  color: rgb(206, 205, 205);
+  text-shadow: 1px 1px 1px rgb(22, 5, 216);
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -10px;
+  align-items: center; /* Alinea verticalmente los elementos */
+}
+
+.detail{
+  margin: 20px auto; /* Establece un margen de 20px en todos los lados y auto para centrar horizontalmente */
+  max-width: 400px; /* Establece un ancho máximo para limitar el ancho del formulario */
+  padding: 20px; /* Añade un espacio interno de 20px dentro del formulario */
+  background-color: rgba(14, 14, 14, 0.7); /* Opcional: Agrega un color de fondo al formulario */
+  background-image: url("https://i.gifer.com/5WWU.gif");
+  max-height: 500px; /* Altura de la tarjeta */
+  border: 1px solid rgb(248, 247, 247);
+  border-radius: 10px;
+  padding-bottom: 50px;
+  overflow: hidden; /* Para recortar la imagen que sobresale */
+  text-align: center;
+}
+.detail h4{
+  color: rgb(229, 232, 232);
+  text-shadow: 3px 3px 3px rgb(22, 5, 216);
+}
+
+.detail h1{
+  color: rgb(229, 232, 232);
+  text-shadow: 3px 3px 3px rgb(22, 5, 216);
+}
+
+.detail p{
+  color: rgb(206, 205, 205);
+  text-shadow: 1px 1px 1px red;
+}
+
+
+.detail img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid rgb(248, 247, 247);
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

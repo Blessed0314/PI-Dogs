@@ -1,0 +1,49 @@
+.card {
+    width: 350px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.7);
+    background-image: url("https://i.gifer.com/2eSd.gif");
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30%;
+}
+
+.card p {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    text-shadow: 2px 2px 2px black;  
+}
+
+.card h3{
+    text-shadow: 2px 2px 2px rgb(22, 5, 216);
+}
+
+.card:hover p {
+    opacity: 1;
+}
+
+.card .info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.card:hover .info {
+    opacity: 1;
+}
